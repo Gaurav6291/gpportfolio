@@ -90,6 +90,8 @@ export default function Projects() {
                 desc={item.desc}
                 img={item.img}
                 href={item.href}
+                href1={item.href1}
+                tech={item.tech}
               />
             ))}
           </div>

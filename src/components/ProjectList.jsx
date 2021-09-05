@@ -11,25 +11,32 @@ const projects = [
     id: uuidv4(),
     name: 'upGrad - clone',
     desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
-    img: GlassdoorP,
+      "UpGrad is a India's largest online higher education company. The main consumer base of this website are working professionals and students.",
+   
+    img: upGradP,
     href: "https://github.com/Gaurav6291/UpGrad",
+    href1: "#",
+    tech: "Html, Css, JavaScript",
   },
   {
     id: uuidv4(),
     name: 'Glassdoor - clone',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
-    img: upGradP,
+      'This is the clone of the website Glassdoor, which provides a platform for companies to post the requirements of their jobs as well as to users for applying for the job.',
+      img: GlassdoorP,
     href: "https://github.com/chandan1499/Project-glassdoor",
+    href1: "#",
+    tech: "Html, Css, JavaScript, React, Styled-components",
   },
   {
     id: uuidv4(),
     name: 'Haynnis Plaza Hotel - clone',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
+      "hyannisplazahotel.com is the official website of the Hyannis Plaza hotel. Our task was to clone this website with all it's major functionalities.",
     img: HaynnisP,
     href: "https://github.com/vshubhams/Hyannis-Plaza",
+    href1: "https://hyannisplaza.netlify.app/",
+    tech: "Html, Css, JavaScript, React, Redux, Material-ui, Styled-components",
   },
 //   {
 //     id: uuidv4(),

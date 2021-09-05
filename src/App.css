@@ -28,8 +28,15 @@ nav{
 
 .loga{
   width: 8rem;
-  height: 5rem;
+  height: 6rem;
   border-radius: 50%;
+}
+.navbar-toggler{
+  font-size: 2.25rem !important;
+}
+.navbar{
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
 }
 
 /******* NAV-LINKS******/
@@ -42,6 +49,7 @@ color: aliceblue !important;
 
 nav ul li{
   text-transform: uppercase;
+  font-size: medium !important;
 }
 
 .navbar-nav > li > a {

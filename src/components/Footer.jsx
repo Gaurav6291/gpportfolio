@@ -53,6 +53,9 @@ background-color: coral;
     .footer__col1 .para {
         max-width: 100%;
     }
+    .footer__col2{
+display: none;
+    }
     .copyright{
         .container{
             div {
