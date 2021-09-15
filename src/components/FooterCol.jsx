@@ -12,6 +12,8 @@ li {
 }
 a {
     font-size: 1.8rem;
+    text-decoration: none;
+    
 }
 `;
 
