@@ -263,9 +263,10 @@ margin-top: 60px;
   box-sizing: border-box;
   background-color: black;
   z-index: 2;
-  
+  box-shadow: rgb(255, 253, 114) 3px 3px 3px;
 }
 .boxes:hover{
+  box-shadow: rgb(243, 114, 255) 3px 3px 3px;
   border: 3px solid #FF0099;
   transform: rotate(25deg);
   animation: name duration timing-function delay iteration-count direction fill-mode;
