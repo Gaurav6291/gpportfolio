@@ -45,6 +45,17 @@ export default function ContactForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+
+  function handleSubmit(){
+    if(name !== "" && email !== ""){
+        alert("Message sent successfully");
+    }
+    else{
+      alert("you missed some details");
+    }
+    setName("");
+    setEmail("");
+  }
   return (
     <>
       <FormStyle>
@@ -84,7 +95,7 @@ export default function ContactForm() {
             />
           </label>
         </div>
-        <button type="submit">Send</button>
+        <button type="submit" onClick={() => handleSubmit()}>Send</button>
       </FormStyle>
     </>
   );

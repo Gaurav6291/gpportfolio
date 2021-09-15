@@ -8,6 +8,8 @@ import contactMe from '../contactMe.jpg'
 import InstagramIcon from '@material-ui/icons/Instagram';
 import { GitHub } from '@material-ui/icons';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import { Email } from '@material-ui/icons';
+import { Twitter } from '@material-ui/icons';
 
 const ContactSectionStyle = styled.div`
   padding: 10rem 0;
@@ -53,13 +55,16 @@ const ContactSectionStyle = styled.div`
     /* display: flex; */
     /* font-size: x-large; */
   }
-  /* .social_div{
-    width: 100px;
-    height: 100px;
+  .socialIcon{
+    font-size: 5rem;
+    border: 3px solid #FFFF00;
     border-radius: 50%;
     background-color: honeydew;
-
-  } */
+margin: 0 1rem;
+  }
+  .socialIcon:hover{
+    border: 4px solid #FF0099;
+  }
   @media only screen and (max-width: 768px) {
     .contactSection__wrapper {
       flex-direction: column;
@@ -99,11 +104,13 @@ export default function ContactSection() {
         </div>
       </div>
       <div className="social">
-<a href="https://www.instagram.com/vastavikgaurav/" target="_blank" rel="noreferrer"><InstagramIcon fontSize="large" /></a>
+<a href="https://www.instagram.com/vastavikgaurav/" target="_blank" rel="noreferrer"><InstagramIcon className="socialIcon" /></a>
 
-<a href="https://github.com/Gaurav6291" target="_blank" rel="noreferrer"><GitHub fontSize="large" /></a>
+<a href="https://github.com/Gaurav6291" target="_blank" rel="noreferrer"><GitHub className="socialIcon" /></a>
 
-<a href="https://www.linkedin.com/in/gaurav-parmar-71b249187/" target="_blank" rel="noreferrer"><LinkedInIcon fontSize="large" /></a>
+<a href="https://www.linkedin.com/in/gaurav-parmar-71b249187/" target="_blank" rel="noreferrer"><LinkedInIcon className="socialIcon" /></a>
+<a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer"><Email className="socialIcon" /></a>
+<a href="https://twitter.com/home" target="_blank" rel="noreferrer"><Twitter className="socialIcon" /></a>
       </div>
     </ContactSectionStyle>
   );

@@ -152,7 +152,7 @@ const Footer = () => {
                         }
                     />
                 </div>
-            </div>
+            </div> 
             <div className="copyright">
                 <div className="container">
                     <PText>© 2021 - Gaurav Parmar | All rights reserved</PText>
