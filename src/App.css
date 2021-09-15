@@ -12,6 +12,7 @@
 
 body{
   font-family: 'Roboto Condensed', sans-serif;
+  background-color: rgb(19,20,25) !important;
 }
 html{
   font-size: 10px;
@@ -37,6 +38,10 @@ nav{
 .navbar{
   padding-top: 1.5rem !important;
   padding-bottom: 1.5rem !important;
+  background-color: rgb(19,20,25) !important;
+  /* background: url(bg8.jpg) no-repeat;
+  background-size: cover;
+  background-position: center; */
 }
 
 /******* NAV-LINKS******/
@@ -73,7 +78,7 @@ border-top: 0.1875rem solid var(--primary-dark);
   }
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
+ .navbar-nav > li > a.active:focus{
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
@@ -85,11 +90,12 @@ border-top: 0.1875rem solid var(--primary-dark);
 
 .header-wraper{
   position: relative;
-  background: url(bg8.jpg) no-repeat;
+  /* background: url(bg8.jpg) no-repeat; */
   /* background: url(portfolio_bg.jpg) no-repeat; */
   /* background: url(portfolio_bg2.jpg) no-repeat; */
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover; */
+  /* background-position: center; */
+  background-color: rgb(19,20,25) !important;
   height: 90vh;
   /* font-size:; */
 }
@@ -110,21 +116,24 @@ border-top: 0.1875rem solid var(--primary-dark);
   /* border: 1px solid chartreuse; */
 }
 
-
+/* rgb(19,20,25) */
 .main-info > img {
   z-index: 1;
   height: -webkit-fill-available;
   width: 220px;
   border-radius: 50%;
-  height: 250px;
-  border-bottom-style: outset;
+  height: 280px;
+  border: none;
+  /* border-bottom-style: outset; */
 }
 .main-info > img:hover{
   border-bottom-color: chartreuse;
   /* height: 240px;
   width: 210px; */
-  cursor: pointer;
-  transform: rotate(360deg); 
+  /* cursor: pointer; */
+  outline: none;
+  border: none;
+  /* transform: rotate(360deg);  */
   transition: 1.5s ease-in-out;
 }
 .main-info-left{
@@ -211,6 +220,7 @@ z-index: 1;
 /************************************ Proficiency *****************************/
 .mySkills{
 width: 100%;
+/* background-color: black; */
 margin-top: 60px;
 }
 .mySkills > h2:nth-child(1){
@@ -218,6 +228,7 @@ margin-top: 60px;
   font-weight: bold;
   line-height: 55px;
   color: #f9ab00;
+  /* margin-top: 60px;  */
   background-color: aquamarine;
   font-size: xx-large;
 }
@@ -225,7 +236,7 @@ margin-top: 60px;
 .front, .back{
   width: 80vw;
   margin: auto;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-bottom: 15px;
   text-align: center;
 
@@ -241,22 +252,25 @@ margin-top: 60px;
   grid-template-columns: auto auto auto auto;
 }
 .boxes{
-  width: 180px;
-  /* border: 1px solid brown; */
-  margin-top: 10px;
+  width: 160px;
+  border: 1px solid yellow;
+  margin-top: 15px;
   /* margin: 5px; */
   box-sizing: border-box;
+  background-color: black;
+  z-index: 2;
 }
 .boxes > h4 {
-  font-size: larger;
+  font-size: 1.7rem;
   font-weight: bold;
   color: #ef4035;
   margin-top: 25px;
 
 }
 .boxes > img{
-  width: 160px;
+  width: 120px;
   padding: 8px;
+  /* z-index: 2; */
 }
 .boxes > img:hover{
   /* width: 180px; */

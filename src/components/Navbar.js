@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import logo from "../portfolio_logo.jpg";
+import logo from "../portfolio1_logo.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { NavLink } from "react-router-dom";
@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
 
         <NavLink className="navbar-brand" to="/"><img className="loga" src={logo} alt="logo" /></NavLink>
@@ -23,6 +23,9 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to ="/about">About Me</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to ="/skills">Skills</NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to ="/projects">Projects</NavLink>

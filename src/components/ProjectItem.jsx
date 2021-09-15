@@ -4,24 +4,32 @@ import styled from 'styled-components';
 import ProjectImg from '../upGradProject.png';
 
 const ProjectItemStyles = styled.div`
+  .outer{
+    border: 3px solid grey;
+    border-radius: 12px;
+  }
   .projectItem__img {
     width: 100%;
-    height: 330px;
-    border-radius: 12px;
+    height: 220px;
+   
     overflow: hidden;
     display: inline-block;
-    border: 3px solid grey;
+    
+    /* background-color: beige; */
+    z-index: 2;
     img {
+      
       height: 100%;
       width: 100%;
     }
   }
   .projectItem__info {
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     background-color: black;
     color:darkgray;
     padding: 1rem;
     border-radius: 12px;
+    height: 300px;
   }
   .projectItem__title {
     font-size: 2.2rem;
@@ -31,28 +39,36 @@ const ProjectItemStyles = styled.div`
     font-size: 1.6rem;
     font-family: 'RobotoMono Regular';
     margin-top: 1rem;
+    margin-bottom: 5%;
+    height: 90px;
   }
   .tech{
     /* display: flex; */
+    height: 90px;
     border: 1px solid floralwhite;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
     
   }
   .btndiv > button{
     border-top: 3px solid red;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
     background-color: rosybrown;
+    font-size: 2rem;
+    width: 80px;
+    outline: none;
+    border-radius: 10px;
+    
   }
   .btndiv > button:hover{
     /* border:px solid red; */
-    border-radius: 5px;
-    border-top: 3px solid black;
+    border-radius: 10px;
+    border-top: 3px solid white;
     border-bottom: 3px solid red;
 
   }
   @media only screen and (max-width: 768px) {
     .projectItem__img {
-      height: 350px;
+      height: 240px;
     }
   }
 `;
@@ -67,6 +83,7 @@ export default function ProjectItem({
 }) {
   return (
     <ProjectItemStyles>
+    <div className="outer">
       <Link to="/projects" className="projectItem__img">
         <img src={img} alt="project img" />
       </Link>
@@ -80,6 +97,7 @@ export default function ProjectItem({
          <button> <a href={href} target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"black"}}>Code </a></button>
         <button><a href={href1} target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"black"}}>Link</a></button>
         </div>
+      </div>
       </div>
     </ProjectItemStyles>
   );

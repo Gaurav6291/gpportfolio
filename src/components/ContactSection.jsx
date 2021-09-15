@@ -31,6 +31,7 @@ const ContactSectionStyle = styled.div`
   .left {
     width: 100%;
     max-width: 500px;
+    z-index: 2;
     img{
         margin-top: 20px;
         width: 510px;
@@ -41,6 +42,7 @@ const ContactSectionStyle = styled.div`
     max-width: 500px;
     width: 100%;
     border-radius: 12px;
+    z-index: 2;
     /* padding-left: 3rem; */
   }
   .social{
@@ -48,8 +50,16 @@ const ContactSectionStyle = styled.div`
     width: 60vw;
     margin:auto;
     margin-top: 5rem;
+    /* display: flex; */
     /* font-size: x-large; */
   }
+  /* .social_div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: honeydew;
+
+  } */
   @media only screen and (max-width: 768px) {
     .contactSection__wrapper {
       flex-direction: column;

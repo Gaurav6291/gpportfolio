@@ -9,6 +9,7 @@ const FormStyle = styled.form`
   }
   label {
     font-size: 1.8rem;
+    color: azure;
   }
   input,
   textarea {
@@ -21,6 +22,7 @@ const FormStyle = styled.form`
     border: none;
     border-radius: 8px;
     margin-top: 1rem;
+    
   }
   textarea {
     min-height: 100px;

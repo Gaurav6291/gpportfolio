@@ -15,8 +15,8 @@ const MapStyles = styled.div`
   }
   .map__card {
     position: absolute;
-    right: 10%;
-    bottom: 10%;
+    right: 35%;
+    bottom: 7%;
     padding: 2rem;
     background: grey;
     width: 100%;
@@ -33,6 +33,10 @@ const MapStyles = styled.div`
     font-size: 1.6rem;
     margin-top: 3rem;
     text-decoration: underline;
+    color: black;
+  }
+  .map__card__link:hover{
+    color: forestgreen;
   }
   @media only screen and (max-width: 768px) {
     background-position: 80% center;

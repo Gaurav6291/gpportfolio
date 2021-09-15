@@ -6,6 +6,8 @@ import aboutMe from '../aboutMe.jpg'
 import { Frontend, Backend } from './proficiencyList';
 const AboutSectionStyles = styled.div`
   padding: 10rem 0;
+  background-color: rgb(19,20,25) !important;
+  color: beige;
   .container {
     display: flex;
     align-items: center;
@@ -15,6 +17,22 @@ const AboutSectionStyles = styled.div`
   .aboutSection__left,
   .aboutSection__right {
     flex: 1;
+    z-index: 2;
+  }
+  .mbtn{
+    border-top: 3px solid red;
+    border-bottom: 3px solid white;
+    background-color: rosybrown;
+    font-size: 2rem;
+    width: 80px;
+    border-radius: 10px;
+  }
+  .mbtn:hover{
+    /* border:px solid red; */
+    border-radius: 5px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid red;
+    border-radius: 10px;
   }
   .section-title {
     text-align: left;
@@ -95,15 +113,15 @@ I'm a curious and enthusiastic full-stack web developer with a good foundation i
 
               </PText>
               <div className="aboutSection__buttons">
-                <button>Projects</button>
-                <button >Blogs</button>
+                <button className="mbtn">Projects</button>
+                <button className="mbtn">Blogs</button>
               </div>
             </div>
             <div className="aboutSection__right">
               <img className="aboutImg" style={{width:"550px"}} src={aboutMe} alt="Img" />
             </div>
           </div>
-          <div className="mySkills">
+          {/* <div className="mySkills">
               <h2>Proficiencies</h2>
               <div>
                 <div className="front">
@@ -134,7 +152,7 @@ I'm a curious and enthusiastic full-stack web developer with a good foundation i
                 </div>
               </div>
           </div>
-          
+           */}
         </AboutSectionStyles>
       );
 }

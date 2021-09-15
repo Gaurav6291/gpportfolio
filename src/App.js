@@ -9,12 +9,14 @@ import Projects from './components/Projects';
 import Contacts from './components/Contacts';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
+import Particles from 'react-particles-js';
+import Skills from './components/Skills';
 
 function App() {
   return (
     <div className="App">
     <>
-    {/* <Particles
+    <Particles
           className="particles-canvas"
     params={
       {
@@ -35,7 +37,7 @@ function App() {
         }
       }
     }
-     /> */}
+     />
     <Router>
   
      <Navbar />
@@ -45,6 +47,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/skills">
+            <Skills />
           </Route>
           <Route path="/projects">
             <Projects />

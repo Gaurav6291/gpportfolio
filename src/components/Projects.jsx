@@ -6,7 +6,7 @@ import ProjectList from './ProjectList';
 import ProjectItem from './ProjectItem';
 
 const ProjectStyle = styled.div`
-  padding: 10rem 0;
+  padding: 5rem 0;
   .projects__allItems {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -92,6 +92,8 @@ export default function Projects() {
                 href={item.href}
                 href1={item.href1}
                 tech={item.tech}
+
+                
               />
             ))}
           </div>

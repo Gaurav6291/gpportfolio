@@ -3,13 +3,14 @@ import styled from 'styled-components';
 
 const SectionTitleStyle = styled.div`
   text-align: center;
+  color: azure;
   p {
     font-family: 'RobotoMono Regular';
     font-size: 2rem;
   }
   h2 {
     font-family: 'Montserrat Bold';
-    font-size: 6rem;
+    font-size: 4rem;
     margin-top: 0.5rem;
     text-transform: uppercase;
   }

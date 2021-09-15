@@ -15,7 +15,7 @@ const projects = [
    
     img: upGradP,
     href: "https://github.com/Gaurav6291/UpGrad",
-    href1: "#",
+    href1: "https://upgrad-ravishukla86044.vercel.app/",
     tech: "Html, Css, JavaScript",
   },
   {
@@ -25,7 +25,7 @@ const projects = [
       'This is the clone of the website Glassdoor, which provides a platform for companies to post the requirements of their jobs as well as to users for applying for the job.',
       img: GlassdoorP,
     href: "https://github.com/chandan1499/Project-glassdoor",
-    href1: "#",
+    href1: "https://github.com/chandan1499/Project-glassdoor",
     tech: "Html, Css, JavaScript, React, Styled-components",
   },
   {

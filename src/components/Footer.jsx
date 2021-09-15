@@ -4,8 +4,9 @@ import FooterCol from './FooterCol'
 import PText from './Ptext'
 
 const FooterStyles = styled.div`
-padding-top: 10rem;
-background-color: coral;
+padding-top: 5rem;
+background-color: black;
+color: blanchedalmond;
 
 /* overflow: hidden; */
 /* width: fit-content; */
