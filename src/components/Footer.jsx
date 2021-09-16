@@ -4,7 +4,7 @@ import FooterCol from './FooterCol'
 import PText from './Ptext'
 
 const FooterStyles = styled.div`
-padding-top: 5rem;
+/* padding-top: 5rem; */
 background-color: black;
 color: blanchedalmond;
 
@@ -34,8 +34,8 @@ color: blanchedalmond;
 .copyright{
     background-color: darkmagenta;
     text-align: left;
-    padding: 1rem 0;
-    margin-top: 5rem;
+    padding: 0.5rem 0;
+    /* margin-top: 5rem; */
     .para {
         margin-left: 0;
     }
@@ -72,7 +72,7 @@ const Footer = () => {
     return (
         <FooterStyles>
             {/* <h1>footer</h1> */}
-            <div className="container">
+            {/* <div className="container">
                 <div className="footer__col1">
                     <h1 className="footer__col1__title">Gaurav Parmar</h1>
                     <PText>
@@ -152,7 +152,7 @@ const Footer = () => {
                         }
                     />
                 </div>
-            </div> 
+            </div>  */}
             <div className="copyright">
                 <div className="container">
                     <PText>© 2021 - Gaurav Parmar | All rights reserved</PText>
