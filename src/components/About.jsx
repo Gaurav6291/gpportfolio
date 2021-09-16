@@ -44,7 +44,7 @@ const AboutSectionStyles = styled.div`
   .aboutSection__buttons {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 2rem;
     margin-top: 2rem;
   }
@@ -101,7 +101,7 @@ const About = () => {
         <AboutSectionStyles>
           <div className="container">
             <div className="aboutSection__left">
-              <SectionTitle
+              <SectionTitle 
                 subheading="Let me introduce myself"
                 heading="About Me"
               />

@@ -27,6 +27,7 @@ const MapStyles = styled.div`
   .map__card__heading {
     font-size: 3rem;
     margin-bottom: 1rem;
+    text-align: center;
   }
   .map__card__link {
     display: inline-block;
@@ -34,6 +35,7 @@ const MapStyles = styled.div`
     margin-top: 3rem;
     text-decoration: underline;
     color: black;
+    text-align: center;
   }
   .map__card__link:hover{
     color: forestgreen;

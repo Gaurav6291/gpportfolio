@@ -268,8 +268,9 @@ margin-top: 60px;
 .boxes:hover{
   box-shadow: rgb(243, 114, 255) 3px 3px 3px;
   border: 3px solid #FF0099;
-  transform: rotate(25deg);
-  animation: name duration timing-function delay iteration-count direction fill-mode;
+  transform:rotate(5deg);
+  
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
   transition: 0.3s ease-in;
 }
 .boxes > h4 {

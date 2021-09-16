@@ -2,8 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 const SectionTitleStyle = styled.div`
-  text-align: center;
   color: azure;
+  text-align: center !important;
+  /* .section-title{
+    
+  } */
   p {
     font-family: 'RobotoMono Regular';
     font-size: 2rem;
@@ -30,7 +33,7 @@ export default function SectionTitle({
   heading = 'need heading',
 }) {
   return (
-    <SectionTitleStyle className="section-title">
+    <SectionTitleStyle className="section-title" style={{textAlign:"center"}}>
       <p>{subheading}</p>
       <h2>{heading}</h2>
     </SectionTitleStyle>
