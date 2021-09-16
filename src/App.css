@@ -294,15 +294,20 @@ margin-top: 60px;
 }
 
 @media only screen and (max-width: 768px){
+  .front, .back{
+    width: 100vw;
+  }
   .fmain, .bmain{
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto auto ;
+    
   }
   .boxes{
     width: 25vw;
     /* border: 1px solid brown; */
-    margin-top: 10px;
-    /* margin: 5px; */
+    /* margin-top: 15px; */
+    margin: 10px 15px;
+    /* margin: 7px 10px; */
     box-sizing: border-box;
   }
   .boxes > img{
@@ -310,9 +315,9 @@ margin-top: 60px;
     padding: 5%;
   }
   
-.front, .back{
+/* .front, .back{
   width: 50vw;
-}
+} */
 }
 
 /************************ About ************************/
