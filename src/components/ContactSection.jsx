@@ -19,6 +19,8 @@ const ContactSectionStyle = styled.div`
     margin-top: 7rem;
     justify-content: space-between;
     position: relative;
+    width:100vw;
+    /* padding: 2rem; */
   }
   .contactSection__wrapper::after {
     position: absolute;
@@ -104,13 +106,13 @@ export default function ContactSection() {
         </div>
       </div>
       <div className="social">
-<a href="https://www.instagram.com/vastavikgaurav/" target="_blank" rel="noreferrer"><InstagramIcon className="socialIcon" /></a>
 
 <a href="https://github.com/Gaurav6291" target="_blank" rel="noreferrer"><GitHub className="socialIcon" /></a>
 
 <a href="https://www.linkedin.com/in/gaurav-parmar-71b249187/" target="_blank" rel="noreferrer"><LinkedInIcon className="socialIcon" /></a>
 <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer"><Email className="socialIcon" /></a>
 <a href="https://twitter.com/home" target="_blank" rel="noreferrer"><Twitter className="socialIcon" /></a>
+<a href="https://www.instagram.com/vastavikgaurav/" target="_blank" rel="noreferrer"><InstagramIcon className="socialIcon" /></a>
       </div>
     </ContactSectionStyle>
   );

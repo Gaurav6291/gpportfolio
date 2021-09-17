@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
+// import reactDom from 'react-dom';
+import 'react-responsive-modal/styles.css';
 import styled from 'styled-components';
+import { Modal } from 'react-responsive-modal';
+import submittSuccess from '../submittSuccess.gif';
+import submittFailed from "../submittFailed.gif"
 
 const FormStyle = styled.form`
   width: 100%;
@@ -46,16 +51,33 @@ export default function ContactForm() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  function handleSubmit(){
-    if(name !== "" && email !== ""){
-        alert("Message sent successfully");
+  const [open, setOpen] = useState(false);
+const [msg, setMsg] = useState("");
+const [img, setImg] = useState();
+// const [clr, setClr] = useState("")
+  const onOpenModal = (e) => {
+    e.preventDefault();
+    setOpen(true)
+    if(name.length <= 2){
+      setMsg("Name must be of more than two letters");
+      setImg(submittFailed);
+      
     }
-    else{
-      alert("you missed some details");
+    if(!(email.includes("@"))){
+      setMsg("Email should be in proper format and must includes @");
+      setImg(submittFailed);
+      
     }
-    setName("");
-    setEmail("");
-  }
+    if(name.length>2 && email !== "" && email.includes("@")){
+      
+       setMsg("Submitted Successfully");
+       setImg(submittSuccess);
+      }
+     
+  };
+  const onCloseModal = () => setOpen(false);
+
+  
   return (
     <>
       <FormStyle>
@@ -95,7 +117,12 @@ export default function ContactForm() {
             />
           </label>
         </div>
-        <button type="submit" onClick={() => handleSubmit()}>Send</button>
+        <button type="submit" onClick={onOpenModal}>Send</button>
+        <Modal open={open} onClose={onCloseModal} center>
+        <h2 style={{margin:"3rem auto", textAlign: "center", color:"seagreen", fontWeight:"bold"}}>{msg}</h2>
+        <img src={img} alt="success" style={{width:"60%", margin:"3rem 20%", textAlign: "center", }} />
+          
+      </Modal>
       </FormStyle>
     </>
   );

@@ -4,6 +4,7 @@ import PText from './Ptext';
 import SectionTitle from './SectionTitle';
 import aboutMe from '../aboutMe.jpg'
 import { Frontend, Backend } from './proficiencyList';
+
 const AboutSectionStyles = styled.div`
   padding: 10rem 0;
   background-color: rgb(19,20,25) !important;
@@ -20,19 +21,24 @@ const AboutSectionStyles = styled.div`
     z-index: 2;
   }
   .mbtn{
-    border-top: 3px solid red;
-    border-bottom: 3px solid white;
-    background-color: rosybrown;
+    /* border-top: 3px solid var(--primary-orange); */
+    /* border-bottom: 3px solid white; */
+    border: 0.1875rem solid var(--primary-orange);
+    color: var(--primary-white);
+    background-color: black;
     font-size: 2rem;
-    width: 80px;
-    border-radius: 10px;
+    width: 100px;
+    /* box-sizing: border-box; */
+    padding: 0.5rem 1rem;
+    /* border-radius: 10px; */
   }
   .mbtn:hover{
     /* border:px solid red; */
-    border-radius: 5px;
-    border-top: 3px solid white;
-    border-bottom: 3px solid red;
-    border-radius: 10px;
+    border-radius: 15px;
+    /* border-top: 3px solid white; */
+    /* border-bottom: 3px solid red; */
+    transition: 0.3s ease-out
+    /* border-radius: 10px; */
   }
   .section-title {
     text-align: left;

@@ -32,7 +32,8 @@ color: blanchedalmond;
     margin-bottom: 1rem;
 }
 .copyright{
-    background-color: darkmagenta;
+    /* background-color: darkmagenta; */
+    background-color: #f9ab00de;
     text-align: left;
     padding: 0.5rem 0;
     /* margin-top: 5rem; */
