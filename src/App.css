@@ -121,7 +121,7 @@ border-top: 0.1875rem solid var(--primary-dark);
   z-index: 1;
   height: -webkit-fill-available;
   width: 220px;
-  border-radius: 50%;
+  border-radius: 25%;
   height: 280px;
   border: none;
   /* border-bottom-style: outset; */

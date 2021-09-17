@@ -25,7 +25,7 @@ const projects = [
       'This is the clone of the website Glassdoor, which provides a platform for companies to post the requirements of their jobs as well as to users for applying for the job.',
       img: GlassdoorP,
     href: "https://github.com/chandan1499/Project-glassdoor",
-    href1: "https://github.com/chandan1499/Project-glassdoor",
+    href1: "https://glassdoor-clone.netlify.app/",
     tech: "Html, Css, JavaScript, React, Styled-components",
   },
   {
