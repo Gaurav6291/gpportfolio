@@ -246,18 +246,19 @@ margin-top: 60px;
 .front > h3, .back > h3 {
   /* font-size: larger; */
   font-weight: bold;
-  font-size: x-large;
+  font-size: xx-large;
   color: #f9ab00;
-  text-shadow: 1px 2px var(--primary-red);
+  /* text-shadow: 1px 2px var(--primary-red); */
   margin-bottom: 5rem;
 }
 .fmain, .bmain{
   display: grid;
   grid-template-columns: auto auto auto auto;
+  margin-top: 4rem;
 }
 .boxes{
   width: 160px;
-  border: 3px solid #FFFF00;
+  /* border: 3px solid #FFFF00; */
   border-top-left-radius: 45px;
   border-bottom-right-radius: 45px;
   /* margin-top: 15px; */
@@ -265,32 +266,32 @@ margin-top: 60px;
   box-sizing: border-box;
   background-color: black;
   z-index: 2;
-  box-shadow: rgb(255, 253, 114) 3px 3px 3px;
+  box-shadow: rgb(138, 138, 134) 2px 2px 2px;
   margin: 15px auto;
 }
 .boxes:hover{
-  box-shadow: rgb(243, 114, 255) 3px 3px 3px;
-  border: 3px solid #FF0099;
+  box-shadow: rgb(243, 114, 255) 2px 2px 2px;
+  /* border: 3px solid #FF0099; */
   transform:rotate(5deg);
   
   /* animation: name duration timing-function delay iteration-count direction fill-mode; */
   transition: 0.3s ease-in;
 }
 .boxes > h4 {
-  font-size: 1.7rem;
-  font-weight: bold;
-  color: #ef4035;
+  font-size: 1.9rem;
+  font-weight:500;
+  color: var(--primary-white);
   margin-top: 25px;
 
 }
 .boxes > img{
   width: 120px;
-  padding: 8px;
+  padding: 25px;
   /* z-index: 2; */
 }
 .boxes > img:hover{
   /* width: 180px; */
-  padding: 3px;
+  padding: 18px;
   transition: 0.2s ease-in;
   cursor: pointer;
   
