@@ -119,9 +119,9 @@ border-top: 0.1875rem solid var(--primary-dark);
 /* rgb(19,20,25) */
 .main-info > img {
   z-index: 1;
-  height: -webkit-fill-available;
+  /* height: -webkit-fill-available; */
   width: 220px;
-  border-radius: 25%;
+  border-radius: 50%;
   height: 280px;
   border: none;
   /* border-bottom-style: outset; */
@@ -147,9 +147,12 @@ border-top: 0.1875rem solid var(--primary-dark);
   /* border: 1px solid; */
   margin: auto;
 }
-.main-info h1{
+.btn-main-offer{
+  font-size: 1.7rem;
+}
+.main-info h1, .main-info h2{
   color: var(--primary-orange);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 @media(max-width: 768px){

@@ -26,10 +26,10 @@ const ProjectItemStyles = styled.div`
   .projectItem__info {
     /* margin-top: 1rem; */
     background-color: black;
-    color:darkgray;
+    color:whitesmoke;
     padding: 1rem;
     border-radius: 12px;
-    height: 300px;
+    height: 325px;
   }
   .projectItem__title {
     font-size: 2.2rem;
@@ -38,14 +38,14 @@ const ProjectItemStyles = styled.div`
   }
   .projectItem__desc {
     font-size: 1.6rem;
-    font-family: 'RobotoMono Regular';
+    /* font-family: 'RobotoMono Regular'; */
     margin-top: 1rem;
     margin-bottom: 5%;
     height: 90px;
   }
   .tech{
     /* display: flex; */
-    height: 90px;
+    height: 110px;
     border: 1px solid floralwhite;
     margin-bottom: 4%;
     
@@ -53,11 +53,18 @@ const ProjectItemStyles = styled.div`
   .btndiv > button{
     /* border-top: 3px solid red; */
     /* border-bottom: 3px solid white; */
-    border: 0.1875rem solid var(--primary-orange);
+    /* border: 0.1875rem solid var(--primary-orange); */
     /* background-color: rosybrown; */
-    font-size: 2rem;
+    /* font-size: 2rem; */
     width: 80px;
-    outline: none;
+    color: white; 
+    height:40px; 
+    border-radius:4px;
+    font-size:1.7rem;
+    font-weight:bold;
+    border:1px solid #d99500;
+    background-color:#d99500;
+    /* outline: none; */
     /* border-radius: 10px; */
 
     
@@ -96,10 +103,10 @@ export default function ProjectItem({
           <h3 className="projectItem__title">{title}</h3>
         
         <p className="projectItem__desc">{desc}</p>
-        <div className="tech"><p style={{fontSize:"large", textAlign:"center"}}>Tech Used :-</p><p style={{fontSize:"medium", textAlign:"center"}}>{tech}</p></div>
-        <div className="btndiv" style={{display:"flex", flexDirection:"row", justifyContent:"space-between", marginLeft:"10px", marginRight:"10px", fontSize:"medium"}}>
-         <button> <a href={href} target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"black"}}>Code </a></button>
-        <button><a href={href1} target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"black"}}>Link</a></button>
+        <div className="tech"><p style={{fontSize:"large", textAlign:"center", paddingTop:"0.9rem", color:"#d99500"}}>Tech Used :-</p><p style={{fontSize:"medium", textAlign:"center", padding:"0 0.7rem 1.2rem 0.7rem"}}>{tech}</p></div>
+        <div className="btndiv" style={{display:"flex", flexDirection:"row", justifyContent:"space-between", marginLeft:"10px", marginRight:"10px"}}>
+         <button> <a href={href} target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}>Code </a></button>
+        <button><a href={href1} target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}>Link</a></button>
         </div>
       </div>
       </div>

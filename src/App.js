@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 // import Particles from 'react-particles-js';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import About from './components/About';
+// import About from './components/About';
 import Projects from './components/Projects';
 import Contacts from './components/Contacts';
 import Resume from './components/Resume';
@@ -45,9 +45,9 @@ function App() {
           <Route exact path="/">
             <Header />
           </Route>
-          <Route path="/about">
+          {/* <Route path="/about">
             <About />
-          </Route>
+          </Route> */}
           <Route path="/skills">
             <Skills />
           </Route>
