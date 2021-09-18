@@ -56,7 +56,7 @@ const Header = () => {
         <div className="header-wraper">
             <div className="main-info">
             <div className="main-info-left">
-                <h1 style={{fontSize:"3rem"}}>Hi There 👋, I am <span style={{fontSize:"4.5rem", display:"block"}}>Gaurav Parmar</span></h1>
+                <h1 style={{fontSize:"3rem"}}>Hi There 👋, I am <span>Gaurav Parmar</span></h1>
                 <Typed 
 
                     className="typed-text"
