@@ -169,14 +169,17 @@ border-top: 0.1875rem solid var(--primary-dark);
   }
   .main-info > img {
     height: 20vh;
-    width: 100px;
+    width: 110px;
   }
   .bio{
     width: 100%;
   }
+  .main-info-left{
+    width: 80%;
+  }
   .main-info-left > h1 > span{
     font-size: 3rem;
-    display: inline-block;
+    /* display: inline-block; */
   }
   .typed-text{
     font-size: 1.3rem !important;
