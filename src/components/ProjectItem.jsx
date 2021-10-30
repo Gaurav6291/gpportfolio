@@ -14,7 +14,8 @@ const ProjectItemStyles = styled.div`
    
     overflow: hidden;
     display: inline-block;
-    
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
     /* background-color: beige; */
     z-index: 2;
     img {

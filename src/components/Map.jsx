@@ -18,7 +18,7 @@ const MapStyles = styled.div`
     right: 35%;
     bottom: 7%;
     padding: 2rem;
-    background: grey;
+    background: #d99500;
     width: 100%;
     max-width: 300px;
     border-radius: 12px;

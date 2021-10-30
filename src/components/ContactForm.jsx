@@ -34,15 +34,24 @@ const FormStyle = styled.form`
     resize: vertical;
   }
   button[type='submit'] {
-    background-color: grey;
-    color: black;
+    /* background-color: grey; */
+    /* color: black; */
     font-size: 2rem;
     display: inline-block;
     outline: none;
-    border: none;
+    /* border: none; */
     padding: 1rem 4rem;
     border-radius: 8px;
     cursor: pointer;
+
+    /* width: 80px; */
+    color: white; 
+    /* height:40px;  */
+    /* border-radius:4px; */
+    /* font-size:1.7rem; */
+    font-weight:bold;
+    border:1px solid #d99500;
+    background-color:#d99500;
   }
 `;
 

@@ -66,7 +66,7 @@ const Header = () => {
                     loop
                 />
                 <h2 style={{fontSize:"2.5rem"}}>I'm from Dungarpur, Rajasthan</h2>
-                <h3 className="bio">I am a hard-working B.Tech. graduate specialized in Information Technology from CTAE, Udaipur. <br />I enjoy developing websites and web applications. Love to have conversations about anything and everything. I'm a curious and enthusiastic full-stack web developer with a good foundation in HTML, CSS, Javascript, React, Node etc.</h3>
+                <h3 className="bio">I am a hard-working B.Tech. graduate specialized in Information Technology from CTAE, Udaipur. <br /><br />I enjoy developing websites and web applications. Love to have conversations about anything and everything. <br /><br /> I'm a curious and enthusiastic full-stack web developer with a good foundation in HTML, CSS, Javascript, React, Node etc.</h3>
                 <button className="btn-main-offer" onClick={() => window.open("/Resume.pdf", "_blank")}><GetAppRoundedIcon /> Resume</button>
                 </div>
                 <img src={mineImg} alt="sds" />

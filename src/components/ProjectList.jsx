@@ -2,7 +2,8 @@ import { v4 as uuidv4 } from 'uuid';
 import GlassdoorP from '../glassdoorProject1.png';
 import upGradP from '../upGradProject.png';
 import HaynnisP from '../hyannisProject.png';
-
+import RedditP from '../RedditP.png'
+import CovidTrackerP from '../CovidTrackerP.png'
 // import CoinTrackerImg from '../images/cointracker.jpg';
 // import CavinImg from '../images/cavinimg.jpg';
 
@@ -17,6 +18,17 @@ const projects = [
     href: "https://github.com/Gaurav6291/UpGrad",
     href1: "https://upgrad-ravishukla86044.vercel.app/",
     tech: "Html, Css, JavaScript",
+  },
+  {
+    id: uuidv4(),
+    name: 'Reddit - clone',
+    desc:
+      "Reddit is an American social media platform. It is the home to thousands of communities, endless conversation, and authentic human connection.",
+   
+    img: RedditP,
+    href: "https://github.com/ravishukla86044/reddit",
+    href1: "https://reddit-new.netlify.app/",
+    tech: "React, Redux, JavaScript, Express, MongoDB, NodeJS, M-UI, Html, Css",
   },
   {
     id: uuidv4(),
@@ -38,13 +50,16 @@ const projects = [
     href1: "https://hyannisplaza.netlify.app/",
     tech: "Html, Css, JavaScript, React, Redux, Material-ui, Styled-components",
   },
-//   {
-//     id: uuidv4(),
-//     name: "Movie Search Engine",
-//     desc:
-//       'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
-//     img: CavinImg,
-//   },
+  {
+    id: uuidv4(),
+    name: "Covid-19 Tracker",
+    desc:
+      ' LIVE COVID-19 Tracker APP using Real API',
+      img: CovidTrackerP,
+      href: "https://github.com/vshubhams/Hyannis-Plaza",
+      href1: "https://hyannisplaza.netlify.app/",
+      tech: "Html, Css, JavaScript, React, Fetch-api",
+  },
 //   {
 //     id: uuidv4(),
 //     name: 'Tracking Soft',

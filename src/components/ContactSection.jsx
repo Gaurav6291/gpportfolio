@@ -59,13 +59,13 @@ const ContactSectionStyle = styled.div`
   }
   .socialIcon{
     font-size: 5rem;
-    border: 3px solid #FFFF00;
+    border: 3px solid #d99500;
     border-radius: 50%;
     background-color: honeydew;
 margin: 0 1rem;
   }
   .socialIcon:hover{
-    border: 4px solid #FF0099;
+    border: 4px solid #f1bc48;
   }
   @media only screen and (max-width: 768px) {
     .contactSection__wrapper {
@@ -110,7 +110,7 @@ export default function ContactSection() {
 <a href="https://github.com/Gaurav6291" target="_blank" rel="noreferrer"><GitHub className="socialIcon" /></a>
 
 <a href="https://www.linkedin.com/in/gaurav-parmar-71b249187/" target="_blank" rel="noreferrer"><LinkedInIcon className="socialIcon" /></a>
-<a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer"><Email className="socialIcon" /></a>
+<a href="mailto:parmargaurav1234@gmail.com" target="_blank" rel="noreferrer"><Email className="socialIcon" /></a>
 <a href="https://twitter.com/home" target="_blank" rel="noreferrer"><Twitter className="socialIcon" /></a>
 <a href="https://www.instagram.com/vastavikgaurav/" target="_blank" rel="noreferrer"><InstagramIcon className="socialIcon" /></a>
       </div>

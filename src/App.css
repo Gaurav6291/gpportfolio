@@ -143,19 +143,29 @@ border-top: 0.1875rem solid var(--primary-dark);
 .bio{
   width: 67%;
   text-align: center;
-  color: darkkhaki;
+  color:whitesmoke;
   /* border: 1px solid; */
   margin: auto;
+  margin-top: 3rem;
 }
 .btn-main-offer{
-  font-size: 1.7rem;
+  /* font-size: 1.7rem; */
+  /* width: 80px; */
+  color: white; 
+  /* height:40px;  */
+  border-radius:4px;
+  font-size:1.7rem;
+  font-weight:bold;
+  border:1px solid #d99500 !important;
+  background-color:#d99500 !important;
 }
 .main-info h1, .main-info h2{
   color: var(--primary-orange);
   /* text-transform: uppercase; */
 }
 .main-info-left > h1 > span{
-  font-size:4.5rem;
+  font-size:6.5rem;
+  color: red;
    display:block;
 }
 
@@ -189,7 +199,9 @@ border-top: 0.1875rem solid var(--primary-dark);
 
 .typed-text{
   font-size: 2rem;
-  color: var(--primary-white);
+  color:#f9ab00;
+  /* color: var(--primary-white); */
+  /* font-style: italic; */
 
 }
 
@@ -197,24 +209,24 @@ border-top: 0.1875rem solid var(--primary-dark);
 /*****************************HEADER MAIN OFFER BUTTON**********************************/
 .btn-main-offer {
   /* border: 1px solid var(--primary-red); */
-  border: 0.1875rem solid var(--primary-orange);
+  /* border: 0.1875rem solid var(--primary-orange); */
   
   text-transform: uppercase;
-  border-radius: 0;
-  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--primary-white);
+  /* border-radius: 0; */
+  padding: 0.625rem 0.8rem 0.75rem 0.8rem;
+  /* color: var(--primary-white); */
   margin: 2rem;
   text-decoration: none;
   display: inline-block;
-  background-color: black;
+  /* background-color: black; */
 }
 
 .btn-main-offer:hover {
   text-decoration: none;
   /* background-color: var(--primary-hover-red); */
-  color: var(--primary-white);
+  /* color: var(--primary-white); */
   transition: 0.3s ease-in-out;
-  border-radius: 35%;
+  border-radius: 45px;
   /* border: 0; */
 }
 /*****************************Partical JS**********************************/
