@@ -1,7 +1,7 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
 import Typed from 'react-typed';
-import mineImg from '../mineImg.png'
+import portfolio_myImg from '../portfolio_myImg.png'
 import GetAppRoundedIcon from '@material-ui/icons/GetAppRounded';
 // import ContactBanner from './ContactBanner';
 // import Particles from 'react-particles-js';
@@ -69,7 +69,7 @@ const Header = () => {
                 <h3 className="bio">I am a hard-working B.Tech. graduate specialized in Information Technology from CTAE, Udaipur. <br /><br />I enjoy developing websites and web applications. Love to have conversations about anything and everything. <br /><br /> I'm a curious and enthusiastic full-stack web developer with a good foundation in HTML, CSS, Javascript, React, Node etc.</h3>
                 <button className="btn-main-offer" onClick={() => window.open("/Resume.pdf", "_blank")}><GetAppRoundedIcon /> Resume</button>
                 </div>
-                <img src={mineImg} alt="sds" />
+                <img src={portfolio_myImg} alt="sds" />
             </div>
         </div>
             {/* <About /> */}
