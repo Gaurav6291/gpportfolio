@@ -50,16 +50,16 @@ const projects = [
     href1: "https://hyannisplaza.netlify.app/",
     tech: "Html, Css, JavaScript, React, Redux, Material-ui, Styled-components",
   },
-  {
-    id: uuidv4(),
-    name: "Covid-19 Tracker",
-    desc:
-      ' LIVE COVID-19 Tracker APP using Real API',
-      img: CovidTrackerP,
-      href: "https://github.com/vshubhams/Hyannis-Plaza",
-      href1: "https://hyannisplaza.netlify.app/",
-      tech: "Html, Css, JavaScript, React, Fetch-api",
-  },
+  // {
+  //   id: uuidv4(),
+  //   name: "Covid-19 Tracker",
+  //   desc:
+  //     ' LIVE COVID-19 Tracker APP using Real API',
+  //     img: CovidTrackerP,
+  //     href: "https://github.com/Gaurav6291/covid-tracker",
+  //     href1: "https://hyannisplaza.netlify.app/",
+  //     tech: "Html, Css, JavaScript, React, Fetch-api",
+  // },
 //   {
 //     id: uuidv4(),
 //     name: 'Tracking Soft',

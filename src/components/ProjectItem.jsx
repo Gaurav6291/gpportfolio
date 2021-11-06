@@ -51,7 +51,7 @@ const ProjectItemStyles = styled.div`
     margin-bottom: 4%;
     
   }
-  .btndiv > button{
+  .btndiv > a > button{
     /* border-top: 3px solid red; */
     /* border-bottom: 3px solid white; */
     /* border: 0.1875rem solid var(--primary-orange); */
@@ -70,7 +70,7 @@ const ProjectItemStyles = styled.div`
 
     
   }
-  .btndiv > button:hover{
+  .btndiv > a > button:hover{
     /* border:px solid red; */
     border-radius: 10px;
     transition: 0.3s ease-in-out;
@@ -106,8 +106,8 @@ export default function ProjectItem({
         <p className="projectItem__desc">{desc}</p>
         <div className="tech"><p style={{fontSize:"large", textAlign:"center", paddingTop:"0.9rem", color:"#d99500"}}>Tech Used :-</p><p style={{fontSize:"medium", textAlign:"center", padding:"0 0.7rem 1.2rem 0.7rem"}}>{tech}</p></div>
         <div className="btndiv" style={{display:"flex", flexDirection:"row", justifyContent:"space-between", marginLeft:"10px", marginRight:"10px"}}>
-         <button> <a href={href} target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}>Code </a></button>
-        <button><a href={href1} target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}>Link</a></button>
+          <a href={href} target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><button>Code</button> </a>
+        <a href={href1} target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><button>Link</button></a>
         </div>
       </div>
       </div>
