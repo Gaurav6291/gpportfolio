@@ -3,9 +3,7 @@ import GlassdoorP from '../glassdoorProject1.png';
 import upGradP from '../upGradProject.png';
 import HaynnisP from '../hyannisProject.png';
 import RedditP from '../RedditP.png'
-import CovidTrackerP from '../CovidTrackerP.png'
-// import CoinTrackerImg from '../images/cointracker.jpg';
-// import CavinImg from '../images/cavinimg.jpg';
+
 
 const projects = [
   {
@@ -50,23 +48,7 @@ const projects = [
     href1: "https://hyannisplaza.netlify.app/",
     tech: "Html, Css, JavaScript, React, Redux, Material-ui, Styled-components",
   },
-  // {
-  //   id: uuidv4(),
-  //   name: "Covid-19 Tracker",
-  //   desc:
-  //     ' LIVE COVID-19 Tracker APP using Real API',
-  //     img: CovidTrackerP,
-  //     href: "https://github.com/Gaurav6291/covid-tracker",
-  //     href1: "https://hyannisplaza.netlify.app/",
-  //     tech: "Html, Css, JavaScript, React, Fetch-api",
-  // },
-//   {
-//     id: uuidv4(),
-//     name: 'Tracking Soft',
-//     desc:
-//       'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
-//     img: ProjectImg,
-//   },
+
 ];
 
 export default projects;
